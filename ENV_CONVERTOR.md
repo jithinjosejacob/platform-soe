@@ -1,0 +1,1 @@
+./envConvertor.sh json_file .env.dev 

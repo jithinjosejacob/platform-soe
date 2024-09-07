@@ -1,0 +1,29 @@
+{
+  "name": "platform-soe",
+  "version": "1.0.0",
+  "main": "s3upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jithinjosejacob/platform-soe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jithinjosejacob/platform-soe/issues"
+  },
+  "homepage": "https://github.com/jithinjosejacob/platform-soe#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.637.0",
+    "@aws-sdk/client-sts": "^3.637.0",
+    "@aws-sdk/credential-providers": "^3.637.0",
+    "@aws-sdk/lib-storage": "^3.637.0"
+  }
+}
